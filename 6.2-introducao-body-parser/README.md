@@ -86,7 +86,7 @@ console.log("app online");
 </html>
 ```
 
-- *por que usar outros verbos além do GET? Já funcionava sem iso de POST!*
+- *por que usar outros verbos além do GET? Já funcionava sem isso de POST!*
   - o GET tem limitação de ter apenas o cabeçalho, que é limitado a 512kb de tamanho
   - os verbos do HTTP foram adicionados ao protocolo para dar **semântica** à conexão
   - as respostas todas podem ter corpo
