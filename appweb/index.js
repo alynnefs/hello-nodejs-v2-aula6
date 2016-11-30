@@ -18,5 +18,10 @@ app.post("/adivinha", (req,res) => {
   res.send("<h1>Sucesso!</h1><a href='numero.html'>voltar </a>");  
 });
 
+app.post("/convidados", (req,res) => {
+  console.log(req.body);
+  res.send("<h1>Sucesso!</h1><a href='moderno.html'>voltar </a>");  
+});
+
 app.listen(3000);
 console.log("app online");
